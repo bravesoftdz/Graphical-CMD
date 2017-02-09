@@ -1,7 +1,7 @@
 <h1>Graphical CMD</h1>
 Graphical CMD provides a Batch creator and allows you to execute them and retrieve the output.
 
-<a href="https://github.com/Inforcer25/Graphical-CMD/raw/master/Graphical%20CMD.exe">
+<a href="https://github.com/Inforcer25/Graphical-CMD/raw/master/Graphical%20CMD%20v1.0.4.exe">
   <img src="http://i.imgur.com/qoGP19r.png" alt="Download">
 </a>
 
