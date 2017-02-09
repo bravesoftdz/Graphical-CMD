@@ -9,7 +9,7 @@ Graphical CMD provides a Batch creator and allows you to execute them and retrie
 * Nothing
 
 <h2>Whats Broken?</h2>
-* Nothing that I know of
+* Syntax Highlighter
 
 <h2>Preview</h2> 
 
