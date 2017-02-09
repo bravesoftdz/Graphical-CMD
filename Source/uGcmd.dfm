@@ -1,7 +1,6 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Graphical CMD'
   ClientHeight = 520
   ClientWidth = 580
@@ -40,11 +39,15 @@ object Form1: TForm1
     Height = 121
     Align = alTop
     TabOrder = 1
+    DesignSize = (
+      580
+      121)
     object edtfile: TEdit
       Left = 8
       Top = 10
       Width = 497
       Height = 31
+      Anchors = [akLeft, akTop, akRight]
       TabOrder = 0
       TextHint = 'Path of batch file to execute'
     end
@@ -53,6 +56,7 @@ object Form1: TForm1
       Top = 10
       Width = 58
       Height = 31
+      Anchors = [akTop, akRight]
       Caption = '***'
       TabOrder = 1
       OnClick = btn1Click
@@ -110,6 +114,9 @@ object Form1: TForm1
     Height = 34
     Align = alBottom
     TabOrder = 2
+    DesignSize = (
+      580
+      34)
     object lbl1: TLabel
       Left = 8
       Top = 6
@@ -128,6 +135,7 @@ object Form1: TForm1
       Top = 6
       Width = 83
       Height = 25
+      Anchors = [akTop, akRight]
       Caption = 'GitHub'
       TabOrder = 0
       OnClick = btn6Click
